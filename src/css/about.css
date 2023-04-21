@@ -1,0 +1,28 @@
+.about-container {
+    display: flex;
+    gap: 30px;
+  }
+  .about-list {
+    display: flex;
+    gap: 30px;
+  }
+  .about-item {
+  }
+  .about-img {
+  }
+  .about-right-side {
+    width: 534px;
+  }
+  
+  .about-desc {
+    margin-bottom: 48px;
+    font-size: 16px;
+    line-height: 1.55;
+    text-align: justify;
+    letter-spacing: 0.03em;
+    color: var(--text-color);
+  }
+  .about-title {
+    margin-bottom: 32px;
+    color: var(--color-darks);
+  }
