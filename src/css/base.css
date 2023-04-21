@@ -1,0 +1,36 @@
+/* ================================================-_(variables)_-================================================ */
+:root {
+    --background: #333335;
+    --accent-color: #ff3839;
+    --dark-color: #202020;
+    --light-color: #f8f8f8;
+    --main-white: #fff;
+    --text-color: #696969;
+    --color-line: #d8d8d8;
+    --color-darks: #000000;
+    --color-btn: #f2f2f2;
+}
+
+/* ================================================-_(/variables)_-=============================================== */
+
+/* ================================================-_(styles reset)_-================================================ */
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: var(--text-color);
+    background-color: var(--main-white);
+}
+
+button {
+    font-family: inherit;
+    color: currentColor;
+    cursor: pointer;
+}
+
+.container {
+    width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+    outline: 2px solid red;
+}
