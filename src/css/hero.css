@@ -1,6 +1,71 @@
-.hero-section {
-  background-color: aqua;
+.hero {
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: var(--dark-color);
+  padding: 184px 0 190px 0;
+  text-align: center;
+  background-image: url(../images/hero/graphic-designers-meeting.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
-.hero-text {
-  color: chocolate;
+.hero-subtitle {
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--main-white);
+  margin-bottom: 14px;
+}
+.subtitle-accent {
+  color: var(--accent-color);
+}
+.hero-title {
+  font-size: 70px;
+  line-height: 1.28;
+  letter-spacing: 0.03em;
+  color: var(--main-white);
+  width: 790px;
+  text-align: center;
+  margin: 0 auto 22px auto;
+}
+.hero-descr {
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--main-white);
+  width: 790px;
+  margin: 0 auto 22px auto;
+}
+.hero-list {
+  display: flex;
+  gap: 19px;
+  justify-content: center;
+}
+.accent-btn {
+  font-size: 16px;
+  line-height: 1.5;
+
+  text-align: center;
+  letter-spacing: 0.03em;
+  background-color: var(--accent-color);
+  color: var(--main-white);
+}
+.hire-btn {
+  padding: 12px 61px;
+  border-radius: 5px;
+  border: none;
+}
+.hero-second-btn {
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 0.03em;
+  padding: 12px 34px;
+  border-radius: 5px;
+  border: none;
+  background-color: var(--main-white);
+  color: var(--dark-color);
 }
