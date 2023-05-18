@@ -1,10 +1,37 @@
 :root {
+  --main-background-color:#AE1332;
+  --title-text-color: #FFFFFF
 }
 
 body {
   font-family: 'DM Sans', sans-serif;
+  background-color: var(--main-background-color);
 }
 
 .container {
   margin: 0 auto;
+  padding-left: 32px;
+  padding-right: 32px;
 }
+
+@media screen and (min-width: 375px) {
+  .container {
+    width: 375px;
+
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    width: 768px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .container {
+    width: 1280px;
+  }
+}
+
