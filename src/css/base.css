@@ -1,17 +1,25 @@
 :root {
-  --main-background-color:#AE1332;
-  --title-text-color: #FFFFFF
+  --pure-white: #ffffff;
+  --red-color: #ae1332;
+
 }
 
 body {
   font-family: 'DM Sans', sans-serif;
-  background-color: var(--main-background-color);
+
+  background-color: var(--red-color);
 }
 
+
+
 .container {
-  margin: 0 auto;
-  padding-left: 32px;
-  padding-right: 32px;
+  min-width: 320px;
+  max-width: 375px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 20px;
+  padding-left: 20px;
+
 }
 
 @media screen and (min-width: 375px) {
