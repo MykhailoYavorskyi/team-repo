@@ -1,0 +1,88 @@
+.fruits-section {
+  background-color: var(--red-color);
+  margin-bottom: 204px;
+}
+
+.fruits-title {
+  margin-bottom: 14px;
+
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 1;
+  text-align: center;
+}
+.fruits-uppertitle {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 44px;
+  max-width: 334px;
+  text-align: center;
+}
+.fruits-card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 14px;
+}
+.fruits-item {
+  padding: 64px 20px 24px 20px;
+  width: 335px;
+  border-radius: 20px;
+}
+.strawberry {
+  background-color: #f8766b;
+}
+.banana {
+  background-color: #edd251;
+}
+.watermelon {
+  background-color: #9dc262;
+}
+.lime {
+  background-color: #bfd663;
+}
+.apple {
+  background-color: #e93f29;
+}
+.peach {
+  background-color: #db4f4b;
+}
+.plums {
+  background-color: #9b5366;
+  display: none;
+}
+.orange {
+  background-color: #f47f4c;
+  display: none;
+}
+.kiwi {
+  background-color: #98b37e;
+  display: none;
+}
+.fruits-name {
+  margin-left: 4px;
+  margin-bottom: 8px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.16;
+}
+.fruits-plant {
+  margin-left: 4px;
+  margin-bottom: 4px;
+  letter-spacing: -0.02em;
+}
+.fruits-img {
+  margin-bottom: 6px;
+}
+.fruits-price {
+  margin-left: 4px;
+  width: 126px;
+  padding: 12px 24px 12px 24px;
+  border-radius: 200px;
+  font-weight: 500;
+  color: var(--red-color);
+  background-color: var(--pure-white);
+}
+.fruits-btn {
+  display: none;
+}
