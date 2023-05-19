@@ -5,6 +5,7 @@
 
 body {
   /* font-family: 'DM Sans', sans-serif; */
+  color: var(--pure-white);
 }
 
 .container {
