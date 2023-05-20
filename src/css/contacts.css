@@ -18,8 +18,13 @@
   color: var(--pure-white);
   letter-spacing: -0.04em;
 }
+
+
 .contacts-item:last-child {
   display: none;
+}
+.contacts-img {
+border-radius: 20px;
 }
 
 .contacts-text {
@@ -32,6 +37,10 @@
 
 
 @media screen and (min-width: 768px) {
+  .contacts-img {
+    min-width: 344px;
+  }
+  
   .contacts-item:last-child{
     display: block;
     
