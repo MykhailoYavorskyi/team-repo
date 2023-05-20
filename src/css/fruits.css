@@ -1,6 +1,13 @@
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
 .fruits-section {
   padding-bottom: 80px;
 }
+
 @media only screen and (min-width: 768px) {
   .fruits-section {
     padding-bottom: 144px;
@@ -21,7 +28,14 @@
   line-height: 1;
   letter-spacing: -0.04em;
   text-align: center;
+  text-transform: uppercase;
+  transition: text-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+.fruits-title:hover,
+.fruits-title:focus {
+  text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
+}
+
 @media only screen and (min-width: 768px) {
   .fruits-title {
     font-size: 40px;
@@ -38,6 +52,11 @@
   font-size: 14px;
   line-height: 1.28;
   letter-spacing: -0.04em;
+  transition: text-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.fruits-uppertitle:hover,
+.fruits-uppertitle:focus {
+  text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
 }
 
 @media only screen and (min-width: 768px) {
@@ -75,40 +94,42 @@
 @media only screen and (min-width: 768px) {
   .fruits-item {
     width: 344px;
+    flex-basis: calc((100% - 16px) / 2);
   }
 }
 
 @media only screen and (min-width: 1280px) {
   .fruits-item {
     width: 389px;
+    flex-basis: calc((100% - 48px) / 3);
   }
 }
 .strawberry {
-  background-color: #f8766b;
+  background-color: var(--card-strawberry-color);
 }
 .banana {
-  background-color: #edd251;
+  background-color: var(--card-banana-color);
 }
 .watermelon {
-  background-color: #9dc262;
+  background-color: var(--card-watermelon-color);
 }
 .lime {
-  background-color: #bfd663;
+  background-color: var(--card-lime-color);
 }
 .apple {
-  background-color: #e93f29;
+  background-color: var(--card-apple-color);
 }
 .peach {
-  background-color: #db4f4b;
+  background-color: var(--card-peach-color);
 }
 .plums {
-  background-color: #9b5366;
+  background-color: var(--card-plums-color);
 }
 .orange {
-  background-color: #f47f4c;
+  background-color: var(--card-orange-color);
 }
 .kiwi {
-  background-color: #98b37e;
+  background-color: var(--card-kiwi-color);
 }
 @media only screen and (max-width: 767px) {
   .plums {
@@ -194,11 +215,17 @@
   color: var(--pure-white);
   background-color: #9dc262;
   transform: rotate(-14deg);
+  text-transform: uppercase;
+  transition: text-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.fruits-btn-icon {
+  transform: none;
 }
 .fruits-btn:hover,
 .fruits-btn:focus {
   background-color: var(--pure-white);
   color: #9dc262;
+  text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
 }
 
 @media only screen and (min-width: 768px) {
