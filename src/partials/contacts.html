@@ -3,40 +3,60 @@
     <h2 class="contacts-title title">Fresh Harvest Box has got you covered</h2>
     <ul class="contacts-list list">
       <li class="contacts-item">
-        <img
-          class="contacts-img"
-          srcset="
-            ./images/contacts/img-1_335.jpg   335w,
-            ./images/contacts/img-1_344.jpg   344w,
-            ./images/contacts/img-1_792.jpg   792w,
-            ./images/contacts/img-1_670.jpg   670w,
-            ./images/contacts/img-1_688.jpg   688w,
-            ./images/contacts/img-1_1584.jpg 1584w
-          "
-          sizes="(min-width: 1280px) 792px, (min-width: 768px) 344px, (min-width: 335px), 100vw"
-          src="./images/contacts/img-1_335.jpg"
-          alt="fruit-malon"
-          width="792"
-          height="502"
-          loading="lazy"
-        />
+        <picture>
+  
+  <source
+    media="(min-width: 1280px)"
+    srcset="./image/contacts/img-1_792.jpg 1x, ./images/contacts/img-1_1584.jpg 2x"
+    type="image/jpg"
+  />
+ 
+  <source
+    media="(min-width: 768px)"
+    srcset="./image/contacts/img-1_344.jpg 1x, ./images/contacts/img-1_688.jpg 2x"
+    type="image/jpg"
+  />
+ 
+  <source
+    media="(min-width: 375px)"
+    srcset="./image/contacts/img-1_335.jpg 1x, ./images/contacts/img-1_670.jpg 2x"
+    type="image/jpg"
+  />
+  <img
+    class="contacts-img"
+    src="./image/contacts/img-1_335.jpg"
+    alt="fruit-malon"
+    width="792"
+    height="502"
+    loading="lazy"
+  />
+</picture>
+       
       </li>
       <li class="contacts-item">
-        <img
-          class="contacts-img"
-          srcset="
-            ./images/contacts/img-2_344.jpg 344w,
-            ./images/contacts/img-2_400.jpg 400w,
-            ./images/contacts/img-2_688.jpg 688w,
-            ./images/contacts/img-2_800.jpg 800w
-          "
-          sizes="(min-width: 1280px) 400px, (min-width: 768px) 344px"
-          src="./images/contacts/img-2_344.jpg"
-          alt="fruit-malon"
-          width="400"
-          height="502"
-          loading="lazy"
-        />
+<picture>
+  
+  <source
+    media="(min-width: 1280px)"
+    srcset="./image/contacts/img-2_400.jpg 1x, ./images/contacts/img-2_800.jpg 2x"
+    type="image/jpg"
+  />
+ 
+  <source
+    media="(min-width: 768px)"
+    srcset="./image/contacts/img-2_344.jpg 1x, ./images/contacts/img-2_688.jpg 2x"
+    type="image/jpg"
+  />
+ 
+  <img
+    class="contacts-img"
+    src="./image/contacts/img-2_344.jpg"
+    alt="fruit-blueberry"
+    width="400"
+    height="502"
+    loading="lazy"
+  />
+</picture>
       </li>
     </ul>
     <p class="contacts-text">
@@ -52,10 +72,13 @@
             name="user_email"
             class="contacts-form-imput"
             placeholder="Enter email..."
+            required
+            pattern="^([a-z0-9_-]+\.)*[a-z0-9_-]+@[a-z0-9_-]+(\.[a-z0-9_-]+)*\.[a-z]{2,6}$"
           />
-          <button type="button" class="contacts-form-button">Send</button>
+          <button type="submit" class="contacts-form-button">Send</button>
         </div>
       </label>
     </form>
+   
   </div>
 </section>

@@ -1,6 +1,7 @@
 :root {
   --pure-white: #ffffff;
   --red-color: #ae1332;
+--imput-invalid-border-color: #FF0000;
 }
 
 @font-face {
