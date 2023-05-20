@@ -1,36 +1,186 @@
+.modal-your-order-backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: ;
+  background-color: antiquewhite;
+}
 .modal-your-order-modal {
+  position: absolute;
+  width: 891px;
+  height: 911px;
+  background-color: white;
+  border-radius: 20px;
+  padding: 40px;
+  background-image: url(../image/modal-your-order/modal-your-order-fon.png);
+  background-repeat: no-repeat;
+  background-position: right bottom;
+}
+.modal-your-order-button-close {
+  position: absolute;
+  display: flex;
+
+  top: 20px;
+  right: 20px;
+  background-color: white;
+  cursor: pointer;
+  border: none;
+  padding: 0;
+}
+.modal-your-order-button-close-icon {
 }
 .modal-your-order-title {
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 1.1;
+  letter-spacing: -0.04em;
+  text-transform: uppercase;
+  color: #ae1332;
 }
-.modal-your-order-form {
-}
+
 .modal-your-order-list {
+  display: flex;
+  gap: 20px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.modal-your-order-list-strawbery {
+  background: #f8766b;
+  border-radius: 20px;
+  width: 257px;
+  height: 308px;
+}
+.modal-your-order-list-apple {
+  background: #edd251;
+  border-radius: 20px;
+  width: 257px;
+  height: 308px;
+}
+.modal-your-order-list-fruits {
+  background: #9dc262;
+  border-radius: 20px;
+  width: 257px;
+  height: 308px;
 }
 .modal-your-order-label-basket {
 }
+
 .modal-your-order-input-basket {
+  appearance: none;
+  display: block;
+  margin-left: auto;
+  margin-top: 14px;
+  margin-right: 14px;
+  margin-bottom: 6px;
+  width: 20px;
+  height: 20px;
+  border: 1.5px solid #ffffff;
+  border-radius: 4px;
+  background-image: url("data:image/svg+xml,%3Csvg width='8' height='8' viewBox='0 0 8 8' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M6.53778 0.351145C6.78571 -0.0145518 7.28316 -0.110021 7.64885 0.13791C8.01455 0.38584 8.11002 0.883284 7.86209 1.24898L3.52319 7.64885C3.20584 8.11694 2.51623 8.11694 2.19888 7.64885L0.13791 4.60892C-0.110021 4.24323 -0.0145518 3.74578 0.351145 3.49785C0.716843 3.24992 1.21429 3.34539 1.46222 3.71109L2.86104 5.77434L6.53778 0.351145Z' fill='white'/%3E%3C/svg%3E");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 0;
+}
+.modal-your-order-input-basket:checked {
+  cursor: pointer;
+  background-size: 8px;
 }
 .modal-your-order-icon {
+  display: block;
+  margin-left: auto;
+  margin-top: 14px;
+  margin-right: 14px;
+  margin-bottom: 6px;
+}
+/* input[type='checkbox']:checked + .modal-your-order-icon > .modal-your-order-unclick {
+}
+input[type='checkbox']:checked + .modal-your-order-icon > .modal-your-order-click {
+  opacity: 1;
 }
 .modal-your-order-unclick {
 }
 .modal-your-order-click {
-}
+  opacity: 0;
+} */
 .modal-your-order-title-sec {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.17;
+  letter-spacing: -0.04em;
+  margin-left: 20px;
 }
 .modal-your-order-item {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  margin-left: 20px;
+  margin-bottom: 4px;
 }
 .modal-your-order-img {
 }
-.modal-your-order-fields {
+.modal-your-order-form {
+  display: flex;
+  flex-direction: column;
 }
+
 .modal-your-order-fields-label {
+  margin-bottom: 14px;
 }
 .modal-your-order-fields-input {
+  width: 360px;
+  height: 48px;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 20px;
+
+  border-radius: 100px;
+  border: 1px solid #000000;
+  opacity: 0.3;
+}
+.modal-your-order-fields-input::placeholder,
+.modal-your-order-comment-area::placeholder {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.04em;
+  color: #000000;
+  padding-left: 24px;
+  padding-top: 15px;
 }
 .modal-your-order-comment-label {
 }
 .modal-your-order-comment-area {
+  width: 360px;
+  height: 145px;
+  margin-bottom: 20px;
+  opacity: 0.3;
+  border: 1px solid #000000;
+  border-radius: 20px;
 }
-.modal-your-order-button {
+.modal-your-order-button-submit {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.04em;
+  color: white;
+  background-color: #9dc162;
+  width: 114px;
+  height: 48px;
+  border-radius: 100px;
+  border: none;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }

@@ -1,90 +1,122 @@
-    <div class="modal-your-order-modal">
-        <button class="modal-your-order-button-close" type="button">
-            <svg class="" width="" height="">
-              <use href="../image/modal-your-order/modal-your-order.svg#icon-close"></use>
-            </svg>
-        </button>
-<strong class="modal-your-order-title">Your order</strong>
-<form class="modal-your-order-form">
-<div class="modal-your-order-list">
-<label class="modal-your-order-label-basket" >
-    <input class="modal-your-order-input-basket" type="checkbox" name="customer_order">
-    <svg class="modal-your-order-icon" width="20" height="20">
-        <use class="modal-your-order-unclick" href="../image/modal-your-order/modal-your-order.svg#icon-unclick"></use>
-        <use class="modal-your-order-click" href="../image/modal-your-order/modal-your-order.svg#icon-click"></use>
+<div class="modal-your-order-backdrop">
+  <div class="modal-your-order-modal">
+    <button class="modal-your-order-button-close" type="button">
+      <svg class="modal-your-order-button-close-icon" width="28" height="28">
+        <use href="../image/modal-your-order/modal-your-order.svg#icon-close"></use>
       </svg>
-    <h2 class="modal-your-order-title-sec">Strawberry Basket</h2>
-    <p class="modal-your-order-item">Plant</p>
-    <img 
-    class="modal-your-order-img"
-     src="../image/modal-your-order/img-strawberry.jpg"
-     alt="strawberry-basket"
-     width="173" 
-     height="196">
-</label>
-<label class="modal-your-order-label-basket">
-    <input class="modal-your-order-input-basket" type="checkbox" name="customer_order">
-    <svg class="modal-your-order-icon" width="20" height="20">
-      <use class="modal-your-order-unclick" href="../image/modal-your-order/modal-your-order.svg#icon-unclick"></use>
-      <use class="modal-your-order-click" href="../image/modal-your-order/modal-your-order.svg#icon-click"></use>
-    </svg>
-    <h2 class="modal-your-order-title-sec">Apple Basket</h2>
-    <p class="modal-your-order-item">Plant</p>
-    <img 
-    class="modal-your-order-img" 
-    src="../image/modal-your-order/img-apple.jpg" 
-    alt="apple-basket"
-    width="229"
-    height="196">
-</label>
-<label class="modal-your-order-label-basket">
-    <input class="modal-your-order-input-basket" type="checkbox" name="customer_order">
-    <svg class="modal-your-order-icon" width="20" height="20">
-        <use class="modal-your-order-unclick" href="../image/modal-your-order/modal-your-order.svg#icon-unclick"></use>
-        <use class="modal-your-order-click" href="../image/modal-your-order/modal-your-order.svg#icon-click"></use>
-      </svg>
-    <h2 class="modal-your-order-title-sec">Fruits Basket</h2>
-    <p class="modal-your-order-item">Plant</p>
-    <img 
-    class="modal-your-order-img" 
-    src="../image/modal-your-order/img-fruits.jpg" 
-    alt="fruits-basket"
-    width="229"
-    height="196">
-</label>
-</div>
-<div class="modal-your-order-fields">
-<label class="modal-your-order-fields-label">
-    <input 
-    class="modal-your-order-fields-input"
-    type="text"
-    name="customer_name"
-    placeholder="Enter full name...">
-</label>
-<label class="modal-your-order-fields-label">
-    <input 
-    class="modal-your-order-fields-input"
-    type="email" 
-    name="customer_email"
-    placeholder="Enter email...">
-</label>
-<label class="modal-your-order-fields-label">
-    <input 
-    class="modal-your-order-fields-input"
-    type="number" 
-    name="customer_card" 
-    placeholder="Enter card..">
-</label>
-<label class="modal-your-order-comment-label" >
-    <textarea 
-    class="modal-your-order-comment-area"
-    name="customer_comments" 
-    cols="30"
-     rows="10"
-     placeholder="Enter comments...">
-    </textarea>
-</label>
-<button class="modal-your-order-button-submit" type="submit">Submit</button>
-</div>
-</form>
+    </button>
+    <strong class="modal-your-order-title">Your order</strong>
+
+    <div class="modal-your-order-list">
+      <div class="modal-your-order-list-strawbery">
+        <label class="modal-your-order-label-basket">
+          <input class="modal-your-order-input-basket" type="checkbox" name="customer_order" />
+          <!-- <svg class="modal-your-order-icon">
+            <use
+              class="modal-your-order-unclick"
+              href="../image/modal-your-order/modal-your-order.svg#icon-unclick"
+            ></use>
+            <use
+              class="modal-your-order-click"
+              width="8"
+              height="8"
+              href="../image/modal-your-order/modal-your-order.svg#icon-click"
+            ></use>
+          </svg> -->
+          <h2 class="modal-your-order-title-sec">Strawberry Basket</h2>
+          <p class="modal-your-order-item">Plant</p>
+          <img
+            class="modal-your-order-img"
+            src="../image/modal-your-order/img-strawberry.png"
+            alt="strawberry-basket"
+          />
+        </label>
+      </div>
+      <div class="modal-your-order-list-apple">
+        <label class="modal-your-order-label-basket">
+          <input class="modal-your-order-input-basket" type="checkbox" name="customer_order" />
+          <!-- <svg class="modal-your-order-icon">
+            <use
+              class="modal-your-order-unclick"
+              href="../image/modal-your-order/modal-your-order.svg#icon-unclick"
+            ></use>
+            <use
+              class="modal-your-order-click"
+              width="8"
+              height="8"
+              href="../image/modal-your-order/modal-your-order.svg#icon-click"
+            ></use>
+          </svg> -->
+          <h2 class="modal-your-order-title-sec">Apple Basket</h2>
+          <p class="modal-your-order-item">Plant</p>
+          <img
+            class="modal-your-order-img"
+            src="../image/modal-your-order/img-apple.png"
+            alt="apple-basket"
+          />
+        </label>
+      </div>
+      <div class="modal-your-order-list-fruits">
+        <label class="modal-your-order-label-basket">
+          <input class="modal-your-order-input-basket" type="checkbox" name="customer_order" />
+          <!-- <svg class="modal-your-order-icon">
+            <use
+              class="modal-your-order-unclick"
+              href="../image/modal-your-order/modal-your-order.svg#icon-unclick"
+            ></use>
+            <use
+              class="modal-your-order-click"
+              width="8"
+              height="8"
+              href="../image/modal-your-order/modal-your-order.svg#icon-click"
+            ></use>
+          </svg> -->
+          <h2 class="modal-your-order-title-sec">Fruits Basket</h2>
+          <p class="modal-your-order-item">Plant</p>
+          <img
+            class="modal-your-order-img"
+            src="../image/modal-your-order/img-fruits.png"
+            alt="fruits-basket"
+          />
+        </label>
+      </div>
+    </div>
+
+    <form class="modal-your-order-form">
+      <label class="modal-your-order-fields-label">
+        <input
+          class="modal-your-order-fields-input"
+          type="text"
+          name="customer_name"
+          placeholder="Enter full name..."
+        />
+      </label>
+      <label class="modal-your-order-fields-label">
+        <input
+          class="modal-your-order-fields-input"
+          type="email"
+          name="customer_email"
+          placeholder="Enter email..."
+        />
+      </label>
+      <label class="modal-your-order-fields-label">
+        <input
+          class="modal-your-order-fields-input"
+          type="number"
+          name="customer_card"
+          placeholder="Enter card.."
+        />
+      </label>
+      <label class="modal-your-order-comment-label">
+        <textarea
+          class="modal-your-order-comment-area"
+          name="customer_comments"
+          cols="30"
+          rows="10"
+          placeholder="Enter comments..."
+        ></textarea>
+      </label>
+      <button class="modal-your-order-button-submit" type="submit">Submit</button>
+    </form>
+  </div>
 </div>
