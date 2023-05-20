@@ -9,8 +9,8 @@
     padding-left: 20px;
     padding-bottom: 80px;
 
-    /* outline: 2px solid red;
-    outline-offset: -2px; */
+    outline: 2px solid red;
+    outline-offset: -2px;
 }
 
 /* Tablet styles & > */
@@ -127,7 +127,6 @@
 
 @media only screen and (min-width: 768px) {
     .hero-title {
-        font-family: 'Raleway', sans-serif;
         font-style: normal;
         font-weight: 500;
         font-size: 50px;
@@ -153,3 +152,53 @@
   }
 }
 
+/* =========================== */
+
+.hero-watermelon-container {
+    margin-top: 146px;
+    margin-left: 17px;
+}
+
+.hero-watermelon-container-text {
+    display: flex;
+    width: 216px;
+    align-items: center;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: -0.04em;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
+
+    margin-bottom: 44px;
+}
+
+.hero-watermelon {
+    width: 249px;
+    height: 387px;     
+    
+    background: #A4CB66;
+    border-radius: 500px;
+}
+
+.hero-watermelon-title {
+    text-align: center;
+    padding-top: 28px;
+    margin-bottom: 61px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+
+    letter-spacing: -0.04em;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
+}
+
+.hero-watermelon-image {
+    margin-bottom: 2px;
+
+}
