@@ -1,0 +1,14 @@
+<svg aria-hidden="true" style="position:absolute;width:0;height:0;overflow:hidden">
+  <defs>
+    <symbol id="icon-basket" viewBox="0 0 32 32">
+      <path fill="none" stroke="#ae1332" stroke-width="2" d="M5.114 31 1.181 7.4H30.82L26.887 31H5.115z" style="stroke:var(--color1, #ae1332)"/>
+      <path fill="#ae1332" d="M6.533 7.467C6.533 2.239 10.771-2 16-2s9.467 4.238 9.467 9.467h-4a5.467 5.467 0 0 0-10.934 0h-4zM23.467 12.8zm-16.934 0V7.467A9.467 9.467 0 0 1 16-2v4a5.467 5.467 0 0 0-5.467 5.467V12.8h-4zM16-2a9.467 9.467 0 0 1 9.467 9.467V12.8h-4V7.467A5.467 5.467 0 0 0 16 2v-4z" style="fill:var(--color1, #ae1332)"/>
+    </symbol>
+    <symbol id="icon-basket-wihte" viewBox="0 0 32 32">
+      <path fill="#fff" d="M25.333 9.333h-4V8a5.332 5.332 0 1 0-10.666 0v1.333h-4a1.333 1.333 0 0 0-1.334 1.333v14.667a4.003 4.003 0 0 0 4 4h13.333a4 4 0 0 0 4-4V10.666a1.333 1.333 0 0 0-1.333-1.333zM13.333 8a2.668 2.668 0 0 1 5.334 0v1.333h-5.333V8zM24 25.333a1.333 1.333 0 0 1-1.333 1.334H9.334A1.334 1.334 0 0 1 8 25.333V12h2.667v1.333a1.335 1.335 0 0 0 2.277.943c.25-.25.39-.589.39-.943V12h5.333v1.333a1.333 1.333 0 1 0 2.666 0V12H24v13.333z" style="fill:var(--color2, #fff)"/>
+    </symbol>
+    <symbol id="icon-strelka" viewBox="0 0 32 32">
+      <path d="M32 4.741 27.259 0v23.704L3.555 0-.001 3.556 23.703 27.26H-.001l4.741 4.741h27.259V4.742z"/>
+    </symbol>
+  </defs>
+</svg>
