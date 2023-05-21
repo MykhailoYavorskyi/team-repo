@@ -28,8 +28,8 @@
 @media only screen and (min-width: 1280px) {
     .hero-container {
         max-width: 1280px;
-        padding-right: 45px;
-        padding-left: 45px;
+        padding-right: 62px;
+        padding-left: 62px;
         padding-bottom: 150px;
     }
 }
@@ -146,11 +146,19 @@
     .hero-title {
         font-size: 64px;
         line-height: 64px;
-    
+        margin-bottom: 74px;    
   }
 }
 
 /* =========================== */
+
+.hero-fruits-container {
+    display: flex;
+    gap: 658px;
+}
+
+
+
 
 .hero-watermelon-container {
     width: 249px;
@@ -161,7 +169,10 @@
     display: flex;
     width: 216px;
     align-items: center;
-
+    
+    padding-top: 72px;
+    padding-bottom: 44px;            
+    
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -169,8 +180,6 @@
     letter-spacing: -0.04em;
     color: #FFFFFF;
     text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
-
-    margin-bottom: 44px;
 }
 
 .hero-watermelon {
@@ -223,6 +232,10 @@
 }
 
 /* ============================ */
+
+.hero-strawberry-container {
+    width: 266px;
+}
 
 .hero-strawberry {
     width: 249px;
