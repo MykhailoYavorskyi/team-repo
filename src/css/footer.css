@@ -1,5 +1,5 @@
-.footer {
-}
+/* .footer {
+} */
 .footer-container {
   padding-top: 80px;
   padding-bottom: 80px;
@@ -23,8 +23,8 @@
   }
 }
 
-.footer-left {
-}
+/* .footer-left {
+} */
 
 .footer-picture {
   margin-bottom: 20px;
@@ -71,8 +71,8 @@
     align-items: center;
   }
 }
-.footer-right {
-}
+/* .footer-right {
+} */
 
 .footer-socials-list {
   display: flex;
