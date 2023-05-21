@@ -7,6 +7,9 @@
   background-color: rgba(0, 0, 0, 0.5);
   z-index: 20;
   transition: 0.3s all;
+  opacity: 1;
+  visibility: visible;
+  pointer-events: initial;
 }
 .is-hidden {
   opacity: 0;
