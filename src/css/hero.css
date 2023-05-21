@@ -40,9 +40,7 @@
     background-color: #AE1332;
     background-repeat: no-repeat;
     background-position: center 104px;
-    background-size: 335px;
-
-    height: 1079px;    
+    background-size: 335px;    
 }
 
 /* hero image mobile =========*/
@@ -155,9 +153,9 @@
 /* =========================== */
 
 .hero-watermelon-container {
-    margin-top: 146px;
-    margin-left: 17px;
+    width: 249px;
 }
+
 
 .hero-watermelon-container-text {
     display: flex;
@@ -177,10 +175,11 @@
 
 .hero-watermelon {
     width: 249px;
-    height: 387px;     
-    
+    height: 387px;  
+        
     background: #A4CB66;
     border-radius: 500px;
+
 }
 
 .hero-watermelon-title {
@@ -199,6 +198,77 @@
 }
 
 .hero-watermelon-image {
+    margin-right: auto;
+    margin-left: auto;
     margin-bottom: 2px;
 
+}
+
+
+.hero-watermelon-text {
+    width: 155px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    text-transform: uppercase;
+    
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: -0.04em;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
+}
+
+/* ============================ */
+
+.hero-strawberry {
+    width: 249px;
+    height: 387px;
+    margin-bottom: 44px;
+       
+    background: #F5CE13;
+    border-radius: 500px;
+
+}
+
+.hero-strawberry-title {
+    text-align: center;
+    padding-top: 28px;
+    margin-bottom: 19px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+
+    letter-spacing: -0.04em;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
+}
+
+.hero-strawberry-image {
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 15px;
+
+}
+
+.hero-strawberry-text {
+    width: 163px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    text-transform: uppercase;
+
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: -0.04em;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
 }
