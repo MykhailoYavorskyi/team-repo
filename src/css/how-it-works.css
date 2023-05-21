@@ -1,16 +1,6 @@
-* {
-  box-sizing: border-box;
-}
-
-.list {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
 .order {
   padding-top: 80px;
   padding-bottom: 80px;
-  background-color: var(--red-color);
 }
 @media only screen and (min-width: 768px) {
   .order {
