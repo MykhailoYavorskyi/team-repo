@@ -157,13 +157,9 @@
     gap: 658px;
 }
 
-
-
-
 .hero-watermelon-container {
     width: 249px;
 }
-
 
 .hero-watermelon-container-text {
     display: flex;
@@ -182,13 +178,13 @@
     text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
 }
 
-.hero-watermelon {
+/* ============================= */
+
+.hero-watermelon-block {
     width: 249px;
-    height: 387px;  
-        
+    height: 387px;        
     background: #A4CB66;
     border-radius: 500px;
-
 }
 
 .hero-watermelon-title {
@@ -206,11 +202,25 @@
     text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
 }
 
+.hero-watermelon-picture {
+    height: 172px;
+}
+
 .hero-watermelon-image {
+    position: relative;
     margin-right: auto;
     margin-left: auto;
     margin-bottom: 2px;
+    z-index: 2;
+}
 
+.hero-watermelon-oval-shadow {
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 2px;
+    transform: translateY(-100%);
+    z-index: 1;
 }
 
 
