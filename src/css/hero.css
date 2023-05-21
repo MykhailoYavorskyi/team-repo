@@ -155,7 +155,7 @@ outline: 2px solid red;
 
 .hero-fruits-container {
     display: flex;
-    gap: 658px;
+    gap: 272px;
 }
 
 .hero-watermelon-container {
@@ -246,11 +246,48 @@ outline: 2px solid red;
     color: #FFFFFF;
     text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
 }
+/* ============================ */
+
+.hero-shopnow-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 28px;
+    letter-spacing: -0.04em;
+    text-transform: uppercase;
+
+    color: #AE1332;
+    text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
+    transform: rotate(-14deg); 
+}
+
+.hero-shopnow-link:hover,
+.hero-shopnow-link:focus {
+    color: #A4CB66;
+}
+
+.hero-shopnow-button {
+    width: 114px; 
+    height: 114px; 
+    margin-top: 409px;
+    
+    background: #FFFFFF;
+    border-radius: 50%;
+}
+
+
 
 /* ============================ */
 
 .hero-strawberry-container {
-    width: 266px;
+    width: 249px;
 }
 
 .hero-strawberry-block {
