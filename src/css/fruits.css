@@ -217,8 +217,7 @@ img {
   text-transform: uppercase;
   transform: rotate(-14deg);
   transition: text-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    rotate 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .fruits-btn:after {
   position: absolute;
@@ -240,7 +239,6 @@ img {
   background-color: var(--pure-white);
   color: #9dc262;
   text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
-  transform: rotate(0deg);
 }
 .fruits-btn:hover:after {
   background-color: var(--pure-white);
