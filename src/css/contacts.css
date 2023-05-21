@@ -17,6 +17,9 @@
   text-align: center;
   color: var(--pure-white);
   letter-spacing: -0.04em;
+  margin: 0 auto;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 
