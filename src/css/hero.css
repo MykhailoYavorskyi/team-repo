@@ -194,7 +194,7 @@
 .hero-watermelon-title {
     text-align: center;
     padding-top: 28px;
-    margin-bottom: 61px;
+    padding-bottom: 61px;
 
     font-style: normal;
     font-weight: 400;
@@ -250,7 +250,8 @@
 .hero-strawberry-title {
     text-align: center;
     padding-top: 28px;
-    margin-bottom: 19px;
+    padding-bottom: 19px;
+           
 
     font-style: normal;
     font-weight: 400;
@@ -263,14 +264,13 @@
 }
 
 .hero-strawberry-image {
-    margin-right: auto;
     margin-left: auto;
-    margin-bottom: 15px;
-
+    margin-right: auto;
+    margin-bottom: 17px;
 }
 
 .hero-strawberry-text {
-    width: 163px;
+    width: 170px;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
