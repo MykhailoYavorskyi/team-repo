@@ -29,10 +29,6 @@ img {
   letter-spacing: -0.04em;
   text-align: center;
   text-transform: uppercase;
-  transition: text-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.fruits-title:hover,
-.fruits-title:focus {
   text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
 }
 
@@ -52,16 +48,12 @@ img {
   font-size: 14px;
   line-height: 1.28;
   letter-spacing: -0.04em;
-  transition: text-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.fruits-uppertitle:hover,
-.fruits-uppertitle:focus {
   text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
 }
 
 @media only screen and (min-width: 768px) {
   .fruits-uppertitle {
-    width: 547px;
+    max-width: 547px;
   }
 }
 
@@ -212,10 +204,9 @@ img {
   color: var(--pure-white);
   fill: var(--pure-white);
   background-color: var(--active-btn-order);
-
-  transition: text-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .fruits-btn-icon-order {
@@ -231,11 +222,25 @@ img {
 }
 
 .fruits-btn-order {
-  font-size: 14px;
-  line-height: 1.28;
+  font-size: 18px;
+  line-height: 1.33;
   letter-spacing: -0.04em;
   text-transform: uppercase;
   transform: rotate(-14deg);
+}
+@media only screen and (max-width: 767px) {
+  .fruits-btn-order {
+    font-size: 14px;
+    line-height: 1.28;
+  }
+  .fruits-btn-icon-order {
+    height: 28px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 1279px) {
+  .fruits-btn-icon-order {
+    height: 37.08px;
+  }
 }
 
 .fruits-btn:hover,
@@ -243,7 +248,6 @@ img {
   fill: var(--active-btn-order);
   background-color: var(--pure-white);
   color: var(--active-btn-order);
-  text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
 }
 
 @media only screen and (min-width: 768px) {
