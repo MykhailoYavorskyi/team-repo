@@ -16,7 +16,7 @@
       href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css"
     />
     
-    <link rel="stylesheet" href="/team10-repository/assets/index-5549154f.css">
+    <link rel="stylesheet" href="/team10-repository/assets/index-f9313ad2.css">
   </head>
   <body>
     <!-- Header section -->
@@ -24,14 +24,49 @@
 <div class="container header-container">
 <nav class="header-nav">
 <ul class="list-nav">
-<li class="list"> <a class="header-link" href="./how-it-works.html">How It Works</a></li>
-<li class="list"> <a class="header-link" href="./fruits.html">Fruits</a></li>
-<li class="list"> <a class="header-link" href="./contacts.html">Contacts</a></li>
+<li class="list"> <a class="header-link" href="#how-it-works">How It Works</a></li>
+<li class="list"> <a class="header-link" href="#fruits">Fruits</a></li>
+<li class="list"> <a class="header-link" href="#contacts">Contacts</a></li>
 </ul></nav>
-<a class="" href="#footer"><svg class="header-icon" width="16" height="16"> <use href="/team10-repository/assets/icon-header-f3f7acbb.svg#logo-header"> </use> </svg>FRESH HARVEST BOX</a>
-<a class="" href="#fruits"><svg class="header-icon" width="16" height="16"> <use href="/team10-repository/assets/icon-header-f3f7acbb.svg#icon-basket"> </use> </svg>  </a>
- 
-</div></header>
+<div class="main-logo">
+<a class="logo-header" href="#fruits"><svg class="main-icon" width="16" height="16"> <use href="/team10-repository/assets/icon-header-58eacd51.svg#logo-header"> </use> 
+</svg> <span class="logo-name">FRESH HARVEST BOX</span> </a></div>
+<a class="" href="#fruits"><svg class="header-icon" width="28" height="28"> <use href="/team10-repository/assets/icon-header-58eacd51.svg#icon-basket"> </use> 
+</svg> </a>
+<button class="menu-toggle js-open-menu" aria-expanded="false" aria-controls="mobile-menu">
+<svg class="burger-button" width="32" height="24" fill="currentColor" viewBox="0 0 20 20">
+  <use href="./images/icon.svg#icon-burger-button"></use>
+  <path
+    fill-rule="evenodd"
+    d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+    clip-rule="evenodd"
+  ></path>
+</svg>
+</button>
+</div> </header>
+
+<!--  Mobile menu -->
+<div class="menu-container js-menu-container" id="mobile-menu">
+  <button class="menu-toggle js-close-menu " type="button">     
+      <svg class="btn-close-mobile" width="8" height="8">
+        <use href="/team10-repository/assets/icon-header-58eacd51.svg#icon-close"></use>
+      </svg>       
+    </button>
+  <ul class="mobile-menu list">
+    <li><a href="#how-it-works" class="mobile-link">How It Works</a></li>
+    <li><a href="#fruits" class="mobile-link">Fruits</a></li>
+    <li><a href="#contacts" class="mobile-link">Contacts</a></li>   
+    <a class="" href="#fruits"><svg class="mobile-menu-icon" width="28" height="28"> <use href="/team10-repository/assets/icon-header-58eacd51.svg#icon-basket"> </use> 
+  </svg> </a></ul>
+</div>
+
+<script
+    defer
+    src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+    integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+    crossorigin="anonymous"
+  ></script>
+  <script defer src="./src/mobile-menu.js"></script>
     <section class="hero-section">
        
     <div class="hero-container">
@@ -150,7 +185,7 @@
 
     <section class="how-it-works" id="how-it-works">
   <div class="container">
-    <h2 class="title-h-one">To order your fruit basket, simply follow these easy steps</h2>
+    <h2 id="how-it-works" class="title-h-one">To order your fruit basket, simply follow these easy steps</h2>
     <p class="desc">
       Our baskets are assembled with care and delivered straight to your doorstep, so you can enjoy
       the taste of fresh fruit without ever leaving your home. Whether you're looking for a healthy
@@ -192,7 +227,7 @@
 
     <section class="fruits-section section" id="fruits">
   <div class="container">
-    <h2 class="fruits-title">ORGANIC FRUITS</h2>
+    <h2 id="fruits" class="fruits-title">ORGANIC FRUITS</h2>
     <p class="fruits-uppertitle">
       Our organic fruits are hand-picked from local farms and delivered straight to your doorstep,
       ensuring that you get the freshest and most nutritious produce possible. We offer a wide
@@ -718,7 +753,7 @@
 
     <section class="contacts section" id="contacts">
   <div class="contacts-container container">
-    <h2 class="contacts-title title">Fresh Harvest Box has got you covered</h2>
+    <h2 id="contacts" class="contacts-title title">Fresh Harvest Box has got you covered</h2>
     <ul class="contacts-list list">
       <li class="contacts-item">
         <picture>
@@ -797,7 +832,7 @@
   </div>
 </section>
 
-    <footer class="footer">
+    <footer  class="footer">
   <div class="footer-container container">
     <div class="footer-left">
       <picture class="footer-picture">
