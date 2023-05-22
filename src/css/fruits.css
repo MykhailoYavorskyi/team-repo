@@ -47,7 +47,7 @@ img {
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 44px;
-  width: 335px;
+  max-width: 335px;
   text-align: center;
   font-size: 14px;
   line-height: 1.28;
@@ -87,7 +87,7 @@ img {
 
 .fruits-item {
   padding: 64px 24px 24px 24px;
-  width: 335px;
+  max-width: 335px;
   border-radius: 20px;
 }
 
@@ -212,10 +212,11 @@ img {
   font-size: 14px;
   line-height: 1.28;
   letter-spacing: -0.04em;
+  text-transform: uppercase;
+
   color: var(--pure-white);
   background-color: #9dc262;
-  text-transform: uppercase;
-  transform: rotate(-14deg);
+
   transition: text-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1),
     background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -230,9 +231,16 @@ img {
   transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transform: scale(0.1);
 }
-
+.fruits-btn-icon-order {
+  position: relative;
+}
 .fruits-btn-icon {
+  position: absolute;
   transform: none;
+  fill: var(--pure-white);
+}
+.fruits-btn-order {
+  transform: rotate(-14deg);
 }
 .fruits-btn:hover,
 .fruits-btn:focus {
