@@ -23,6 +23,10 @@
   border-radius: 20px;
   width: 335px;
   height: 426px;
+  z-index: 30;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 @media only screen and (min-width: 767px) {
   .modal-thank-you-modal {
