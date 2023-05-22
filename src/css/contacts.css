@@ -20,6 +20,7 @@
   margin: 0 auto;
   padding-left: 20px;
   padding-right: 20px;
+  text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
 }
 
 
@@ -66,6 +67,7 @@ border-radius: 20px;
     font-size: 54px;
     top: -79px;
     left: 58px;
+    
   }
 
   .contacts-text {
@@ -79,7 +81,7 @@ border-radius: 20px;
     max-width: 489px;
     margin: 0 auto;
     margin-bottom: 80px;
-    
+    text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
   }
 
   .contacts-form {
@@ -95,13 +97,28 @@ border-radius: 20px;
   .contacts-form-imput {
     width: 292px;
     height: 48px;
-    border: 1px solid #ffffff;
+    border: 1px solid var(--pure-white);
     color: var(--pure-white);
     background-color: transparent;
     border-radius: 100px;
     padding-left: 24px;
     outline: none;
   }
+
+
+    .contacts-form-imput:focus {
+      border: 2px solid var(--pure-white);
+      
+    }
+
+    .contacts-form-imput::placeholder {
+      font-size: 14px;
+      line-height: 1.29;
+        letter-spacing: -0.04em;
+      font-weight: 400;
+      color: var(--pure-white);
+    }
+
 
     .contacts-form-imput:not(:placeholder-shown):required:invalid:not(:placeholder-shown):required:invalid {
       border-color: var(--imput-invalid-border-color);

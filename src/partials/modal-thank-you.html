@@ -1,1 +1,47 @@
-
+<div class="modal-thank-you-backdrop is-hidden" data-modal-thank>
+  <div class="modal-thank-you-modal">
+    <button class="modal-thank-you-close" type="button" data-thank-close>
+      <svg class="modal-thank-you-icon" width="28" height="28">
+        <use href="../image/modal-thank-you/modal-thank-you.svg#icon-close"></use>
+      </svg>
+    </button>
+    <picture>
+      <source
+        media="(min-width: 769px )"
+        srcset="
+          ./image/modal-thank-you/img-raspberry-desk-1x.png 1x,
+          ./image/modal-thank-you/img-raspberry-desk-2x.png 2x
+        "
+        type="image/png"
+      />
+      <source
+        media="(min-width: 768px )"
+        srcset="
+          ./image/modal-thank-you/img-raspberry-tab-1x.png 1x,
+          ./image/modal-thank-you/img-raspberry-tab-2x.png 2x
+        "
+        type="image/png"
+      />
+      <source
+        media="(max-width: 767px)"
+        srcset="
+          ./image/modal-thank-you/img-raspberry-mob-1x.png 1x,
+          ./image/modal-thank-you/img-raspberry-mob-2x.png 2x
+        "
+        type="image/png"
+      />
+      <img
+        class="modal-thank-you-img"
+        src="../image/modal-thank-you/img-raspberry.png"
+        alt="img-raspberry"
+      />
+    </picture>
+    <h1 class="modal-thank-you-title">Thank you</h1>
+    <p class="modal-thank-you-item">
+      Thank you for your order! Our team is preparing your box with fresh, delicious fruits and
+      vegetables, and we'll deliver it straight to your doorstep. We appreciate your business and
+      look forward to providing you with the best possible experience!
+    </p>
+  </div>
+</div>
+<script src="./js/modal_two.js"></script>

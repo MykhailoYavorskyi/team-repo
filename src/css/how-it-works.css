@@ -1,17 +1,14 @@
 .how-it-works {
-  padding-top: 80px;
   padding-bottom: 80px;
   background-color: var(--red-color);
 }
 @media only screen and (min-width: 768px) {
   .how-it-works {
-    padding-top: 137px;
     padding-bottom: 144px;
   }
 }
 @media only screen and (min-width: 1280px) {
   .how-it-works {
-    padding-top: 150px;
     padding-bottom: 150px;
   }
 }
@@ -155,12 +152,7 @@
     line-height: 18px;
   }
 }
-@media only screen and (min-width: 1280px) {
-  .step-item:nth-child(1) .step-text,
-  .step-item:nth-child(2) .step-text {
-    margin-right: 33px;
-  }
-}
+
 .step-img-box {
   max-width: 335px;
   height: 476px;
