@@ -155,12 +155,7 @@
     line-height: 18px;
   }
 }
-@media only screen and (min-width: 1280px) {
-  .step-item:nth-child(1) .step-text,
-  .step-item:nth-child(2) .step-text {
-    margin-right: 33px;
-  }
-}
+
 .step-img-box {
   max-width: 335px;
   height: 476px;
