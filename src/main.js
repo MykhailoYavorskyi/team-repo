@@ -1,6 +1,6 @@
-import './js/mob_menu';
-import './js/modal_one';
-import './js/modal_two';
+import './js/mob_menu.js';
+import './js/modal_one.js';
+import './js/modal_two.js';
 
 // (() => {
 //   const refs = {
