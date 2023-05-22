@@ -9,8 +9,8 @@
     padding-left: 20px;
     padding-bottom: 80px;
 
-outline: 2px solid red;
-    outline-offset: -2px;  
+/* outline: 2px solid red;
+    outline-offset: -2px;   */
 }
 
 /* Tablet styles & > */
@@ -38,39 +38,39 @@ outline: 2px solid red;
 
 .hero-section {
     background-color: #AE1332;
-    background-repeat: no-repeat;
-    background-position: center 104px;
-    background-size: 335px;    
+    background-repeat: no-repeat;    
+    background-position: center 0px;   
+    background-size: 375px;    
 }
 
 /* hero image mobile =========*/
 @media only screen and (max-width: 767px) {
     .hero-section {
-        background-image: url(../image/hero.image/hero-girl-mobile@1x.png);        
+        background-image: url(../image/hero.image/hero-girl-mobile-@1x.png);        
     }
 
-    @media (min-device-pixel-ratio: 2),
+@media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
         .hero-section {
-            background-image: url(../image/hero.image/hero-girl-mobile@2x.png);            
+            background-image: url(../image/hero.image/hero-girl-mobile-@2x.png);            
         }
-    }
+    } 
 }
 
 /* hero image tablet =========*/
 @media only screen and (min-width: 768px) {
     .hero-section {
-        background-image: url(../image/hero.image/hero-girl-tablet@1x.png);
-        background-position: center 102px;
-        background-size: 486px;
+        background-image: url(../image/hero.image/hero-girl-tablet-@1x.png);
+        background-position: center 0px;
+        background-size: 768px;
     }
 
     @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
         .hero-section {
-            background-image: url(../image/hero.image/hero-girl-tablet@2x.png);
+            background-image: url(../image/hero.image/hero-girl-tablet-@2x.png);
         }
     }
 }
@@ -78,16 +78,16 @@ outline: 2px solid red;
 /* hero image desk =========*/
 @media only screen and (min-width: 1280px) {
     .hero-section {
-        background-image: url(../image/hero.image/banana-desk@1x.png),
-                            url(../image/hero.image/hero-girl-desk@1x.png);
+        background-image: url(../image/hero.image/hero-girl-desk-@1x.png);
+        background-position: center 0px;
+        background-size: 1280px;
     }
 
     @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
         .hero-section {
-            background-image: url(../image/hero.image/banana-desk@2x.png),
-                            url(../image/hero.image/hero-girl-desk@2x.png);
+            background-image: url(../image/hero.image/hero-girl-desk-@2x.png);
             
         }
 
