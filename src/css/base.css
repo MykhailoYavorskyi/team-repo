@@ -1,7 +1,20 @@
 :root {
   --pure-white: #ffffff;
   --red-color: #ae1332;
+
+  --card-strawberry-color: #f8766b;
+  --card-banana-color: #edd251;
+  --card-watermelon-color: #9dc262;
+  --card-lime-color: #bfd663;
+  --card-apple-color: #e93f29;
+  --card-peach-color: #db4f4b;
+  --card-plums-color: #9b5366;
+  --card-orange-color: #f47f4c;
+  --card-kiwi-color: #98b37e;
   --imput-invalid-border-color: #ff0000;
+  --active-btn-order: #9dc262;
+
+
 }
 
 @font-face {
