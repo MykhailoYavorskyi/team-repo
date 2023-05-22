@@ -78,19 +78,29 @@ outline: 2px solid red;
 /* hero image desk =========*/
 @media only screen and (min-width: 1280px) {
     .hero-section {
-        background-image: url(../image/hero.image/hero-girl-desk@1x.png);
+        background-image: url(../image/hero.image/banana-desk@1x.png),
+                            url(../image/hero.image/hero-girl-desk@1x.png);
     }
 
     @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
         .hero-section {
-            background-image: url(../image/hero.image/hero-girl-desk@2x.png);
+            background-image: url(../image/hero.image/banana-desk@2x.png),
+                            url(../image/hero.image/hero-girl-desk@2x.png);
             
         }
 
     }
 } 
+
+/* ============================================ */
+
+
+
+
+
+/* ============================================ */
 
 @media only screen and (max-width: 767px) {
     .hero-title-mobile {
@@ -169,24 +179,26 @@ outline: 2px solid red;
     }
 }
 
-.hero-shopnow-link-mobile {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    height: 100%;
-
-    font-family: 'Raleway', sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 28px;
-    line-height: 28px;
-    letter-spacing: -0.04em;
-    text-transform: uppercase;
-
-    color: #AE1332;
-    text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
-    transform: rotate(-14deg);
+@media only screen and (max-width: 767px) {
+    .hero-shopnow-link-mobile {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+    
+        font-family: 'Raleway', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 28px;
+        line-height: 28px;
+        letter-spacing: -0.04em;
+        text-transform: uppercase;
+    
+        color: #AE1332;
+        text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
+        transform: rotate(-14deg);
+  }
 }
 
 .hero-shopnow-link-mobile:hover,
@@ -194,6 +206,13 @@ outline: 2px solid red;
     color: #A4CB66;
 }
 
+
+@media only screen and (min-width: 768px) {
+    .hero-shopnow-button-mobile {
+        display: none;
+    
+  }
+}
 /* =========================== */
 
 @media only screen and (min-width: 768px) {
