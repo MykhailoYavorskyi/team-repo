@@ -17,6 +17,11 @@
 
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+
 @font-face {
   font-family: 'DM Sans';
   src: url('../fonts/DMSans-Regular.eot');
@@ -65,7 +70,7 @@ body {
   letter-spacing: -0.04em;
 
   color: var(--pure-white);
-  scroll-behavior: smooth;
+  
 }
 
 .container {

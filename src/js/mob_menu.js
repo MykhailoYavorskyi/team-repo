@@ -15,7 +15,9 @@
     closeBtnIcon.classList.toggle('closeIcon');
     openBtnIcon.classList.toggle('closeIcon');
 
-    const scrollLockMethod = !isMenuOpen ? 'disableBodyScroll' : 'enableBodyScroll';
+    const scrollLockMethod = !isMenuOpen 
+    ? 'disableBodyScroll' 
+    : 'enableBodyScroll';
     bodyScrollLock[scrollLockMethod](document.body);
   };
 
